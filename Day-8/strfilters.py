@@ -18,6 +18,9 @@ def string_separation(str1):
     print("characters=",len(characterss))
     print("digits=",len(digits)) 
     print("symbols=",len(symbols))                
+
+
+
 str1="jpgij450e)(t^tb$iu@b0"
 result=string_separation(str1)
 
