@@ -1,2 +1,1 @@
-n=20
-print(type(n))
+print(f"{(4/3)*3.14*(float(input())**3):.2f}" )

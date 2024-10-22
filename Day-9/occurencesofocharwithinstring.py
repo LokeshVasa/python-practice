@@ -11,7 +11,9 @@ Expected Outcome:
 '''
 def occurences_of_ocharwithin_string(str1):
     empty_dict={}
-    for i in 
+    for i in range(len(str1)):
+        empty_dict+=i
+    return empty_dict    
 
    
 
