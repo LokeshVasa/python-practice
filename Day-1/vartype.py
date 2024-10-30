@@ -14,3 +14,6 @@ for i in range(10):
     text_to_type = '''Gandu'''
     pyautogui.typewrite(text_to_type, interval=0.1) 
     pyautogui.press('enter')
+
+
+# D:\python-practice\streamlit\app.py
