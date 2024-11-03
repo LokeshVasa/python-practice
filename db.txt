@@ -1,0 +1,3 @@
+income 	 Coupons	 500
+expense 	 bills	 500
+income 	 Awards	 500
