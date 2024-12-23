@@ -1,2 +1,3 @@
-for i in range(1,11):
-    print(i)               
+l="lokesh"
+c="chandra"
+print(f"l= {l}+c= {c}.")
