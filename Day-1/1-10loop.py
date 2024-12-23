@@ -1,3 +1,3 @@
 l="lokesh"
 c="chandra"
-print(f"{l}{c}")
+print(f"{l} {c}")
