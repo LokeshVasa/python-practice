@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bdbdf4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fbf5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Counter</h1>
+        <label for="note">Choose a note:</label>
+        <select id="note">
+            <option value="10">10 RS</option>
+            <option value="20">20 RS</option>
+            <option value="50">50 RS</option>
+            <option value="100">100 RS</option>
+            <option value="200">200 RS</option>
+            <option value="500">500 RS</option>
+            <option value="2000">2000 RS</option>
+        </select>
+
+        <label for="quantity">Enter how many notes you have:</label>
+        <input type="number" id="quantity" min="1" placeholder="Enter quantity">
+
+        <button onclick="calculateTotal()">Calculate</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateTotal() {
+            const note = parseInt(document.getElementById('note').value);
+            const quantity = parseInt(document.getElementById('quantity').value);
+
+            if (!quantity || quantity <= 0) {
+                document.getElementById('result').textContent = "Please enter a valid quantity.";
+                return;
+            }
+
+            const total = note * quantity;
+            document.getElementById('result').textContent = `Total amount you have: ${total} RS`;
+            
+        }
+    </script>
+</body>
+
+</html>
