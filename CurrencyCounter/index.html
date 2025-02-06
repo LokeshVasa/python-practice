@@ -54,6 +54,11 @@
             font-size: 18px;
             font-weight: bold;
         }
+        .Img{
+           height: 1px;
+           width: 10px;
+           margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -83,7 +88,10 @@
 
         <div class="result" id="result2"></div>
     </div>
-
+    <div class="Img">
+        <img src="" alt="img not avail">
+    </div>
+   
     <script>
         function calculateTotal() {
             const note = parseInt(document.getElementById('note').value);
@@ -110,11 +118,11 @@
 
             const total = (note * quantity)/86.39;
             document.getElementById('result2').textContent = `Total amount you have in dollars: $${Math.floor(total * 100) / 10}`;
-
-            
-5
         }
     </script>
+   
+    
+
 </body>
 
 </html>
