@@ -4,7 +4,7 @@ i/p:-lokesh
 i/p:-chandra
 o/p:-laknhc
 '''
-def mixed_string(str1,str2):
+def mixed_string(str1, str2):
     first=str1[0]+str2[-1]
     middle=len(str1)//2
     middle2=len(str2)//2
