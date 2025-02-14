@@ -7,3 +7,4 @@ def comp(l,c):
 l=list(input("enter u r 1st lsit="))
 c=list(input("enter u r 2nd lsit="))
 print(comp(l,c))
+//
