@@ -13,3 +13,4 @@ for i in range(10):
     text_to_type = '''nenu oka pedha yedhava'''
     pyautogui.typewrite(text_to_type, interval=0.1) 
     pyautogui.press('enter')
+//
