@@ -2,5 +2,5 @@
 
 def series(n):
     return  2 * (10**n - 1) // 9
-n=5
+n=10
 print(series(n))
