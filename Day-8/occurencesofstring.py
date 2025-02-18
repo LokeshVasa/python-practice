@@ -6,8 +6,6 @@ Given:
 str1 = "Welcome to USA. usa awesome, isn't it?"
 Expected Outcome: The USA count is: 2'''
 
-from inspect import stack
-import queue
 
 
 def occurences_of_string(str1):
@@ -16,7 +14,3 @@ def occurences_of_string(str1):
 
 str1 = "Welcome to USA. usa awesome, isn't it?"
 print(occurences_of_string(str1))
-str
-int
-stack
-queue
