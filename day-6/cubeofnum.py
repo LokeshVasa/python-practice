@@ -5,4 +5,5 @@ n=int(input("enter a number you want finf cube:-"))
 print(cube(n))
 
 
-#wkjjfnioubnfiugbn 
+#wkjjfnioubnfiugbn aca 
+sfe
