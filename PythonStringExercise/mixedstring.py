@@ -7,7 +7,7 @@ Given:
 s1 = "Abc"
 s2 = "Xyz"
 Expected Output:
-
+AXbycz
 AzbycX
 
 '''
@@ -19,3 +19,4 @@ mid=length//2
 length1=len(s2)
 mid1=length1//2
 print(s1[0]+s2[0]+s1[mid]+s2[mid1]+s1[-1]+s2[-1])
+print(s1[0]+s2[-1]+s1[mid]+s2[mid1]+s1[-1]+s2[0])
