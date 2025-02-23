@@ -6,4 +6,4 @@ if (input_number == generate_random_number):
     print("CORRECT")
 else:
     print("try Again")
-    print(" ",generate_random_number)
+    print(" ",generate_random_number)  
