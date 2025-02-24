@@ -16,5 +16,5 @@ n="test@example.com"
 s=n.split("@")
 if n=='@':
     print(s)
-else:
+e lse:
     print(None)
