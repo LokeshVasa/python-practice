@@ -17,3 +17,4 @@ for i in numbers:
     empty_list.append(i**2)
 print(empty_list)    
 print(empty_list)    
+print(empty_list)    
