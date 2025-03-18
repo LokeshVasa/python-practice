@@ -1,3 +1,23 @@
+.body-padding {
+    padding: 20px;
+  }
+  .body-padding {
+    padding: 20px;
+  }
+  
+  .container {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .padding-10 {
+    padding: 10px;
+  }
+  
+  .margin-bottom-20 {
+    margin-bottom: 20px;
+  }
+  
 body {
     display: flex;
     flex-flow: column;
@@ -7,19 +27,21 @@ body {
 }
 
 .month {
-    border-radius: 30px;
+    border-radius: 100px;
     width: 20%;
     height: 40px;
     border: 4px solid rgb(48, 7, 34);
     display: flex;
     align-items: center;
     justify-content: center;
+    text-size-adjust: 10px;
 }
 
 .categories {
+    font-family: sans-serif;
     width: 80%;
     height: 70px;
-    border: 4px solid rgb(48, 7, 34);
+    border: 4px solid rgb(132, 72, 72);
     display: flex
 ;
     align-items: center;
@@ -29,7 +51,7 @@ body {
 
 .arrows {
     height: 50%;
-    width: 10%;
+    width: 5%;
     display: flex;
   justify-content: space-between;
 }
@@ -55,3 +77,28 @@ body {
     padding: 100px;
 }
 
+.cal{
+    border-radius: 100px;
+    width: 20%;
+    height: 40px;
+    border: 4px solid rgb(48, 7, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cal{
+    border-radius: 10px;
+    width: 25%;
+    height: 10px;
+    border: 4px solid rgb(48, 7, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+}
