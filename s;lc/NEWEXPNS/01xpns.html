@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form id="expense-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <label for="category">Category:</label>
+            <select id="category" name="category"></select>
+            <br><br>
+            <br>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div class="expenses-container">
+            <h2>Expenses:</h2>
+            <ul id="expenses-list"></ul>
+        </div>
+
+        <!-- Button to view all expenses -->
+        <button id="view-all-expenses-btn" style="display: none;">View All Expenses</button>
+
+        <!-- Modal for displaying all expenses -->
+        <div id="all-expenses-modal" style="display: none;">
+            <h2>All Expenses:</h2>
+            <ul id="all-expenses-list"></ul>
+        </div>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
