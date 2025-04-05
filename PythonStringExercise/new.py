@@ -10,3 +10,4 @@ if l[0]==None:
     print("true")
 else:
     print("False")        
+    
