@@ -1,5 +1,5 @@
 import qrcode
 
-qr = qrcode.make("heloo")
+qr = qrcode.make("Hello, This is lokesh!")
 qr.save("myqr.png")
 print("QR code saved as myqr.png")
