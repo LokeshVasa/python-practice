@@ -8,3 +8,6 @@ totp.now() # => '492039'
 totp.verify('492039') # => True
 time.sleep(30)
 totp.verify('492039') # => False
+
+time.sleep(30)
+totp.verify('492039') # => False
